@@ -1,0 +1,22 @@
+.image {
+  opacity: 0.3;
+}
+
+.box {
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: black;
+  width: 237px;
+  height: 59px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}

@@ -1,0 +1,10 @@
+.container {
+  align-items: center;
+  display: inline-flex;
+  width: 210px;
+}
+
+.container > select {
+  border: none;
+  margin-bottom: 0;
+}

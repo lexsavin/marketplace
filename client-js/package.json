@@ -1,0 +1,31 @@
+{
+  "name": "infomaximum-test-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.10.8",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.21",
+    "@mui/joy": "^5.0.0-beta.36",
+    "@mui/material": "^5.15.21",
+    "@reduxjs/toolkit": "^2",
+    "graphql": "^16.9.0",
+    "plural-ru": "^2.0.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-redux": "^9",
+    "react-router-dom": "^6.24.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "11.10.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "prettier": "^3.2.1",
+    "vite": "^5.0.11"
+  }
+}

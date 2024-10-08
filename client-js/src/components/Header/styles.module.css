@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid #d9d9d9;
+
+  margin-bottom: 30px;
+}
+
+.header > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.header > div:nth-child(1) > div {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.header > div:nth-child(1) > div > span {
+  font-weight: 700;
+  color: #6c47ff;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+}
+
+.group > div:nth-child(1) {
+  margin-right: 30px;
+}
+
+.group > div:nth-child(2) {
+  margin-right: 100px;
+}
+.group > div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  cursor: pointer;
+}
